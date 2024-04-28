@@ -45,7 +45,7 @@ def bot():
                                f"user ID: {user_id}, data: {dict(failures)}")
 
     client.run(bot_config.GUILDED_BOT_TOKEN)
-    # return 'Hello World!'
+    return 'Kiwi Bot Running!'
 
 if __name__ == '__main__':
     app.run()
